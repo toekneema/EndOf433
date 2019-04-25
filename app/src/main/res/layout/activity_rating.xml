@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#1b2235"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="410dp"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_width="150dp"
+            android:layout_height="65dp"
+            android:id="@+id/flaganimation"/>
+
+        <ImageView
+            android:layout_width="210dp"
+            android:layout_height="65dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/usatabletennis"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ratingcalculatorbanneryay" />
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="375dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Initial Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="100dp"
+            android:height="50dp"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/initialRating"
+            android:inputType="number"
+            android:textSize="5pt"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 1 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent1Rating"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:textSize="5pt"
+            android:inputType="number"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner1">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 2 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent2Rating"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 3 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:id="@+id/opponent3Rating"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner3">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 4 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent4Rating"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner4">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 5 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent5Rating"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner5">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 6 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent6Rating"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner6">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="175dp"
+            android:layout_height="45dp"
+            android:text="Enter Opponent 7 Rating"/>
+        <EditText
+            android:background="@drawable/rounded_edittext"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/opponent7Rating"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:inputType="number"
+            android:textSize="5pt"/>
+        <Spinner
+            android:backgroundTint="#56A0D3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner7">
+        </Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="375dp"
+        android:layout_height="50dp">
+
+        <Button
+            android:background="@drawable/roundshapebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="CALCULATE"
+            android:id="@+id/calculate"
+            android:onClick="buttonClick"/>
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="New Rating"
+            android:textSize="7pt"
+            android:gravity="center"
+            android:id="@+id/newnew"/>
+        <TextView
+            android:textColor="#56A0D3"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/newRating"
+            android:textSize="4.5pt"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="75dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/customview"
+        android:onClick="goBack"
+        android:background="@drawable/roundshapebtn"
+        android:text="Back"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="665dp" />
+
+</LinearLayout>
